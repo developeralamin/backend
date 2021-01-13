@@ -1,0 +1,150 @@
+/* screen size 1210px */
+@media all and (max-width:1260px){
+	.middle{
+	  width:80%;
+    }
+	.B_left {
+    flex: 0 0 100%;
+    align-items: center;
+  }
+  .B_right {
+    flex: 0 0 100%;
+    margin-top: 63px;
+ }
+ .OP_left {
+    flex: 0 0 100%;
+}
+.OP_right {
+    flex: 0 0 100%;
+	margin-top: 61px;
+}
+.all_recreate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.recreate_right {
+    flex: 0 0 70%;
+    padding-top: 282px;
+}
+.OP_left img {
+    margin-top: 38px;
+}
+.all_re_right {
+    display: flex;
+       margin-bottom: 2px;
+    flex-direction: column;
+}
+
+.single_recreat {
+    flex: 0 0 50%;
+    display: flex;
+    padding-bottom: 34px;
+}
+.single_pak {
+    flex: 0 0 42%;
+
+}
+
+
+
+
+}
+/* screen size 996px */
+@media all and (max-width:996px){
+	.menu_all{
+		flex-direction:column;
+	}
+	.menu ul{
+		flex-direction:column;
+	}
+	
+}
+
+	
+/* screen size 768px */
+@media all and (max-width:768px){
+	.Form_area {
+    max-width: 571px;
+    width: 106%;
+  }
+  .OP_right h1 {
+    font-size: 28px;
+  }	
+  .recreate_right {
+    flex: 0 0 70%;
+    padding-top:50px;
+}
+.single_pak {
+    flex: 0 0 88%;
+    margin-bottom:30px;
+}
+.comapny {
+    background: #685757;
+    display: none;
+}
+
+}
+
+/* screen size 575px */
+@media all and (max-width:575px){
+	.B_left h2 {
+     font-size: 31px;
+   }
+   .B_left p{
+	   font-size:15px;
+   }
+   .B_btn {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .S_btn {
+   margin-left: 0px; 
+    margin-top: 21px;
+}
+.From_btn a {
+    display: inline-block;
+    padding: 14px 38px;
+    text-align: center;
+    margin: 0 auto;
+}
+  .OP_right h1 {
+    font-size: 22px;
+  }	
+  	/* .menu ul{ */
+		/* display:none;  */
+		/* position: absolute; */
+		/* top: 380%; */
+		/* width: 100%; */
+/* } */
+}
+
+/* screen size 480px */
+@media all and (max-width:480px){
+	.B_left h1 {
+		color: #fff;
+		font-weight: 900;
+		font-size: 33px;
+	}
+	.B_left h2 {
+      font-size: 22px;
+    }
+	.OP_right h1 {
+    font-size: 20px;
+  } 
+  .test_head h1 {
+    font-size: 33px;
+}
+/* .menu ul{ */
+		/* display:none;  */
+		/* position: absolute; */
+		/* top: 402%; */
+		/* width: 100%; */
+/* } */
+}
+
+
+
+
+
+
